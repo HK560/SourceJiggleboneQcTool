@@ -12,7 +12,7 @@ public:
 	bool init();
 	bool setFile(std::string);
 	void setBoneList();
-	std::list<std::string> getBoneList();
+	std::list<std::string>* getBoneList();
 	
 
 };

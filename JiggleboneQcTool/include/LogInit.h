@@ -3,3 +3,4 @@
 using spdlog::log;
 using spdlog::info;
 using spdlog::warn;
+using spdlog::error;

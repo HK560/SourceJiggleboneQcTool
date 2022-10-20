@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="JiggleboneQcTool.cpp">
+    <ClCompile Include="src\BoneInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\BoneInfo.cpp">
+    <ClCompile Include="src\JiggleboneQcTool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

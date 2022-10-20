@@ -130,8 +130,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="JiggleboneQcTool.cpp" />
     <ClCompile Include="src\BoneInfo.cpp" />
+    <ClCompile Include="src\JiggleboneQcTool.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\BoneInfo.h" />

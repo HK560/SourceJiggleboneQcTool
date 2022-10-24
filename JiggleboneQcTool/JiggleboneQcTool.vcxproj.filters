@@ -21,6 +21,15 @@
     <ClCompile Include="src\JiggleboneQcTool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\JiggleBoneConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoneConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoneConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\BoneInfo.h">
@@ -324,6 +333,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="include\LogInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JiggleBoneConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoneConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoneConfig.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

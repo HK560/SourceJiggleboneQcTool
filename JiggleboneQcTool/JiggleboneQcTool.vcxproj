@@ -130,11 +130,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\BoneConfig.cpp" />
     <ClCompile Include="src\BoneInfo.cpp" />
+    <ClCompile Include="src\JiggleBoneConfig.cpp" />
     <ClCompile Include="src\JiggleboneQcTool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\BoneConfig.h" />
     <ClInclude Include="include\BoneInfo.h" />
+    <ClInclude Include="include\JiggleBoneConfig.h" />
     <ClInclude Include="include\spdlog\async.h" />
     <ClInclude Include="include\spdlog\async_logger-inl.h" />
     <ClInclude Include="include\spdlog\async_logger.h" />

@@ -12,9 +12,9 @@ class BoneInfo
 public:
 	BoneInfo();
 	bool setFile(std::string);
-	void setBoneList();
+	bool setBoneList();
 	std::list<std::string>* getBoneList();
-	
+	~BoneInfo();
 private:
 	std::string getBoneName(std::string line);
 };

@@ -24,11 +24,12 @@ int main()
     std::cout << "               \\______/  \\______/                                                                   By HK560        \n";
     // info("\nJiggleboneQcTool\nByHk560");
     info("version: v0.0.1");
-    system ("PAUSE ");
+    info("PLEASE READ THE DOCUMENTATION FIRST");
+    system ("PAUSE");
 
     BoneInfo* boneInfo = new BoneInfo();
 
-    if(!boneInfo->setFile(string("definebone.txt")))return false;
+    if(!boneInfo->setFile(string("definebone.qci")))return false;
     if(!boneInfo->setBoneList())return false;
 
     BoneConfig* boneConfig = new BoneConfig(boneInfo);
@@ -37,11 +38,12 @@ int main()
     if(!boneConfig->writeJigglebone())return false;
 
 
-    // JiggleBoneConfig* jiggleConfig = new JiggleBoneConfig();
+    JiggleBoneConfig* jiggleConfig = new JiggleBoneConfig();
 
     // boneConfig->writeJigglebone();
     delete boneInfo;
     system ("PAUSE ");
     return 0;
 }
+
 

@@ -1,6 +1,8 @@
 # SourceJiggleboneQcTool
 set definebone and jiggleboneConfig, get Jigglebone
 
+WITH SHIT CODE
+
 ByHK560
 
 没啥用的工具

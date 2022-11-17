@@ -53,6 +53,9 @@ bool BoneInfo::setBoneList() {
     };
 
     info("Number of bones:{}", boneList->size());
+    if(boneList->size()==0){
+        warn("Found 0 bones! Please check the definebone.qci file!");
+    }
     file->close();
     return true;
 }

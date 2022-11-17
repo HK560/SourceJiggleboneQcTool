@@ -8,6 +8,26 @@
 
 using std::string;
 
+bool runTool(){
+    BoneInfo* boneInfo = new BoneInfo();
+
+    if(!boneInfo->setFile(string("DefineBones.qci")))return false;
+    if(!boneInfo->setBoneList())return false;
+
+    BoneConfig* boneConfig = new BoneConfig(boneInfo);
+    if(!boneConfig->initTemplatePath())return false;
+
+    if(!boneConfig->writeJigglebone())return false;else info("ALL DONE!");
+
+
+    // JiggleBoneConfig* jiggleConfig = new JiggleBoneConfig();
+
+    // boneConfig->writeJigglebone();
+    delete boneConfig;
+    delete boneInfo;
+    return true;
+}
+
 int main()
 {
     // std::cout << "JiggleboneQcTool\nByHK560\n";
@@ -27,22 +47,10 @@ int main()
     info("PLEASE READ THE DOCUMENTATION FIRST");
     system ("PAUSE");
 
-    BoneInfo* boneInfo = new BoneInfo();
+    if(!runTool()){
+        error("BAD RESULT");
+    };
 
-    if(!boneInfo->setFile(string("definebone.qci")))return false;
-    if(!boneInfo->setBoneList())return false;
-
-    BoneConfig* boneConfig = new BoneConfig(boneInfo);
-    if(!boneConfig->initTemplatePath())return false;
-
-    if(!boneConfig->writeJigglebone())return false;else info("ALL DONE!");
-
-
-    // JiggleBoneConfig* jiggleConfig = new JiggleBoneConfig();
-
-    // boneConfig->writeJigglebone();
-    delete boneConfig;
-    delete boneInfo;
     system ("PAUSE ");
     return 0;
 }

@@ -1,7 +1,10 @@
 # SourceJiggleboneQcTool
-set definebone and jiggleboneConfig, get Jigglebone
-
+set definebone and jiggleboneConfig, get Jigglebone 
 WITH SHIT CODE
+
+# 这是什么
+用于批量生成飘动骨骼定义的工具，适合模型有一堆飘动骨骼，需要批量去定义参数。
+利用撬棍生成的definebone，得到模型/动画所有的骨骼，删掉不需要的配置的骨骼，编辑飘动骨骼定义模板，运行程序，就能得到根据骨骼和参数模板生成的动骨定义。
 
 ByHK560
 

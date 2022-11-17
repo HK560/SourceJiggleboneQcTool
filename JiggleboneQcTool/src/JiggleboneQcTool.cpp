@@ -35,12 +35,13 @@ int main()
     BoneConfig* boneConfig = new BoneConfig(boneInfo);
     if(!boneConfig->initTemplatePath())return false;
 
-    if(!boneConfig->writeJigglebone())return false;
+    if(!boneConfig->writeJigglebone())return false;else info("ALL DONE!");
 
 
-    JiggleBoneConfig* jiggleConfig = new JiggleBoneConfig();
+    // JiggleBoneConfig* jiggleConfig = new JiggleBoneConfig();
 
     // boneConfig->writeJigglebone();
+    delete boneConfig;
     delete boneInfo;
     system ("PAUSE ");
     return 0;

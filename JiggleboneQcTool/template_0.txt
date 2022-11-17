@@ -1,0 +1,7 @@
+$jigglebone "T_BONENAME" {
+	is_rigid {
+		tip_mass 100
+		length 20
+		angle_constraint 60 
+	}
+}

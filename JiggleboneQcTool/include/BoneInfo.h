@@ -3,6 +3,10 @@
 #include <fstream>
 #include <list>
 #include<string>
+
+
+#define BONENAME_TEMPLATE "T_BONENAME"
+
 class BoneInfo
 {
 	std::ifstream *file;

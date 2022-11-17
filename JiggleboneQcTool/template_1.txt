@@ -1,0 +1,8 @@
+$jigglebone "T_BONENAME" {
+	is_flexible {
+		yaw_stiffness 100
+		yaw_damping 3
+		length 20
+		yaw_constraint 0 0
+	}
+}
